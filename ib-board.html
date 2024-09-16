@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ib-board</title>
+    <style>
+        *{
+            margin: 0;
+            border: border-box;
+         }
+        body{
+            background-color: #b9eaf4;
+            padding: 2rem;
+        }
+        .board-page{
+            align-items: center;
+            display: flex;
+            background-color: aquamarine;
+            justify-content: center;
+        }
+        .board-page h1{
+            font-size: 60px;
+        }
+       .nav-bar{
+        position: fixed;
+        width: 100%;
+        left: 0px;
+        margin-left: 2rem;
+        margin-right: 2rem;
+       }
+       .nav-bar a{
+        text-decoration: none;
+        color:rgb(29, 5, 46);
+        display: block;
+        height: 50px;
+        line-height: 50px;
+       }
+       .nav-bar>ul{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+       }
+       .nav-bar>ul>li>a{
+        background-color:cornflowerblue;
+       }
+       .nav-bar>ul>li>a:hover{
+        background: #b9eaf4;
+        color: black;
+       }
+       .nav-bar li{
+        float: left;
+        width: 15.8%;
+        text-align: center;
+        justify-content: space-evenly;
+        border: 1px solid #333;
+       }
+       
+    </style>
+</head>
+<body>
+    <div class="board-page">
+        <img src="head2-img5.png" height="80px" width="80px">
+        <h1>IB Board</h1>
+      </div>
+     <div class="nav-bar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#">10th slybus</a></li>
+            <li><a href="#">12thSlybus</a></li>
+            <li><a href="#">Ib BOard Schools</a></li>
+            <li><a href="#">Riview</a></li>
+            <li><a href="#">Top Schools of IB board</a></li>
+        </ul>
+     </div> 
+     <div class="content">
+
+     </div>
+
+</body>
+</html>
